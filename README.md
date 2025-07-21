@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# microCMS Practice Blog
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) for practicing with microCMS integration.
+
+## Features
+
+- Next.js 14 with App Router
+- TypeScript support
+- Tailwind CSS for styling
+- Hydration error fixes for browser extensions
+- Ready for microCMS integration
+
+## Hydration Error Fix
+
+This project includes a fix for hydration errors caused by browser extensions (like ColorZilla) that add attributes to the DOM. The fix uses `suppressHydrationWarning={true}` on the body element in `app/layout.tsx`.
 
 ## Getting Started
 
